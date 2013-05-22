@@ -1,0 +1,5 @@
+Notes to myself
+
+1. In production remember to change config/environments/prodiction line config.action_mailer.default_url_options = { :host => 'localhost:3000' } localhost need to change to final url
+
+2. Remember to run "rake db:migrate" or run "bundle exec rake db:migrate" when we upload to heroku.
