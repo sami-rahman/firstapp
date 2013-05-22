@@ -1,0 +1,36 @@
+/* - You can change the font
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+*/
+
+/* - use this to change color of navbar
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+*/
+
+/* - use this to change primary button color throughout site
+$btnPrimaryBackground: green;
+*/
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+/* - use this to remove dropshow on navbar
+.navbar-inner {
+	@include box-shadow (none !important);
+	border: 0;
+}
+*/
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
